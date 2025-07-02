@@ -1,0 +1,64 @@
+<html>
+<head>
+
+</head>
+
+<body>
+
+
+<input placeholder="Enter Year of Birth" class="js-year-input">
+<button onclick="
+calculateAge();
+">Enter</button>
+
+    <script>
+
+function calculateAge() {
+const inputElement = document.querySelector('.js-year-input');
+let year = inputElement.value;
+
+if (year > 2005) {
+   console.log(year = 'Minor');
+} else if (year <= 2005 && year >= 1989) {console.log(year = 'Youth')}
+else if ( year < 1989) {console.log(year = 'Elder')}
+}
+
+let num = [4, 6]
+let target = 10
+for ( let i = 10; i < num.length; i++) {
+const nums = num[i];
+target += nums;
+
+}
+
+function twoSum (nums =  [4, 6], target = 10) {
+   return [4, 6]
+}
+
+console.log(twoSum());
+
+
+function fizzBuzz (string, character) {
+return 'fizzBuzz';
+};
+
+console.log(fizzBuzz());
+
+function firstPalindrome (words) {
+ return "";
+};
+console.log(firstPalindrome());
+
+let integer = 98
+
+function number () {
+    integer = 9+8; integer = 1+7;
+return integer
+};
+
+console.log(number());
+    </script>
+
+</body>
+
+</html>
